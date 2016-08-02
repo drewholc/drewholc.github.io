@@ -1,7 +1,288 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drew Holcomb Portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Cabin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+	<div class="container-fluid"><!--=====================HEADER CONTAINER===============================-->
+		<div class="row"><!--=====================HEADER ROW===============================-->
+			<!--=====================NAV BAR==========================-->
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+						<a href="#home"><img src="img/navlogo.png" class="img-responsive brand-logo"></a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="active"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<!--=====================END OF NAV BAR==========================-->
+			<div class="jumbotron text-center" id="home"> <!--========JUMBOTRON============-->
+				<div class="col-md-5 col-centered">
+					<h1>Drew Holcomb</h1>
+					<p style="font-size:24px;">Entry-Level Programmer</p>
+					<div class="animation_typing">
+	          <p class="css-typing center-block">Hi I'm Drew.</p>
+	          <p class="css-typing center-block">I have a 3 month old son, Kais.</p>
+	          <p class="css-typing center-block">And a 3 year old Husky-Pitbull mix, Carter.</p>
+	          <p class="css-typing center-block">Recently transitioned into programming</p>
+	          <p class="css-typing center-block">You can see my progress on this page.<span class="pillar_sign">|</span></p>
+	      </div>
+			</div>
+			</div> <!--========END OF JUMBOTRON============-->
+		</div><!--=====================END OF HEADER ROW===============================-->
+	</div><!--=====================END OF HEADER CONTAINER===============================-->
+
+	<div class="container-fluid"><!--=====================BODY CONTAINER FLUID=================================-->
+		<div class="row"><!--=====================BODY ROW=================================-->
+			<div class="container" id="about"><!--=====================ID ABOUT CONTAINER=================================-->
+				<div class="row aboutRow">
+					<div class="col-md-12 text-center">
+						<h2>About</h2>
+					</div>
+				</div>
+				<div class="row schoolWork"><!--=====================SCHOOL/WORK ROW=================================-->
+					<div class="col-md-6 text-center"><!--==================SCHOOL COL========================-->
+						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+						<hr>
+						<p>Studied for four years at the best college I could've asked for. After realizing my bachelors degree in Sociology probably was not my best idea I got hooked on Code Academy. That then led me to other Massive Open Online Courses. Realizing I do much better in a school setting I joined Geekwise in Fresno, CA.</p>
+						<p><button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal1"><span>School</span></button></p>
+					</div><!--==================END OF SCHOOL COL========================-->
+					<div class="col-md-6 text-center"><!--==================WORK COL========================-->
+						<i class="fa fa-laptop" aria-hidden="true"></i>
+						<hr>
+						<p>After college I worked a few part time jobs, bartending and as a substitute teacher. Before getting too comfortable in those jobs I set off to New York City to find a passion. After getting a few different managing jobs I learned about coding and realized this is something I could make a career out of.</p>
+						<p><button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal2"><span>Work</span></button></p>
+					</div><!--==================END OF WORK COL========================-->
+				</div><!--=====================END OF SCHOOL/WORK ROW=================================-->
+			</div><!--=====================END OF ID ABOUT CONTAINER=================================-->
+			<div class="container" id="projects"><!--=====================ID PROJECTS CONTAINER=================================-->
+				<div class="row"><!--=====================PROJECTS ROW=================================-->
+					<div class="col-md-10 col-centered"><!--=====================PROJECTS COL=================================-->
+						<h2 class="text-center">Projects</h2>
+						<div class="row thumbs"><!--=====================TUMBNAIL ROW=================================-->
+						  <div class="col-md-4"><!--===THUMBNAIL 1=====-->
+						    <div class="thumbnail">
+						      <a href="https://drewholc.github.io/Restaurant/" target="_blank"><img src="http://fillmurray.com/300/200" alt="Fill Murray" class="img-responsive bw"></a>
+						      <div class="caption">
+						        <h3>Restaurant Webpage</h3>
+						        <p>Mock restaurant website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 1=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 2=====-->
+						    <div class="thumbnail">
+						      <a href="https://drewholc.github.io/pet-store-home/" target="_blank"><img src="http://fillmurray.com/300/200" alt="Fill Murray" class="img-responsive bw"></a>
+						      <div class="caption">
+						        <h3>Pet Store's Webpage</h3>
+						        <p>Mock pet store website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 2=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 3=====-->
+						    <div class="thumbnail">
+						      <a href="https://drewholc.github.io/pet-store-contact/" target="_blank"><img src="http://fillmurray.com/300/200" alt="Fill Murray" class="img-responsive bw"></a>
+						      <div class="caption">
+						        <h3>Pet Store Contact Page</h3>
+						        <p>Mock pet store contact page website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 3=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 4=====-->
+						    <div class="thumbnail">
+						      <a href="https://drewholc.github.io/code-player/" target="_blank"><img src="http://fillmurray.com/300/200" alt="Fill Murray" class="img-responsive bw"></a>
+						      <div class="caption">
+						        <h3>Code Player</h3>
+						        <p>Input code on left, output shows on right.</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 4=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 5=====-->
+						    <div class="thumbnail">
+						      <a href="https://drewholc.github.io/awesome-app/" target="_blank"><img src="http://fillmurray.com/300/200" alt="Fill Murray" class="img-responsive bw"></a>
+						      <div class="caption">
+						        <h3>Awesome App</h3>
+						        <p>Mock app website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 5=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 6=====-->
+						    <div class="thumbnail">
+						      <a href="http://drewholc.github.io/reaction-test/" target="_blank"><img src="http://fillmurray.com/300/200" alt="Fill Murray" class="img-responsive bw"></a>
+						      <div class="caption">
+						        <h3>Reaction Test</h3>
+						        <p>Javascript reaction test</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 6=====-->
+						</div><!--=====================END OF THUMBNAIL ROW=================================-->
+					</div><!--===END OF PROJECTS COL=====-->
+				</div><!--=====================END OF PROJECTS ROW=================================-->
+			</div><!--=====================END OF ID PROJECTS CONTAINER================================-->
+		</div><!--=====================END OF BODY ROW=================================-->
+	</div><!--=====================END OF BODY CONTAINER FLUID=================================-->
+
+	<div class="container-fluid footer feet"><!--=====================FOOTER CONTAINER FLUID===========================-->
+		<div class="row"><!--==============================FOOTER ROW====================================-->
+			<div class="container" id="contact"><!--=====================FOOTER CONTAINER INNER===========================-->
+				<div class="row">
+					<div class="col-md-6"><!--CONTACT ME-->
+						<h2>Contact Me</h2> <br>
+						<p style="font-size:18px;">Currently looking for front-end developing job or freelance project. Please <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">email</a> me to get in touch.</p> <br>
+						<p style="font-size:14px;">If you would like to discuss employment opportunity, please feel free to contact me.</p>
+						<img src="img/kai.jpg" alt="Kais Dean" class="kais center-block">
+					</div><!--END OF CONTACT ME-->
+					<div class="col-md-4 col-md-offset-1"><!--============SOCIAL MEDIA LINKS================-->
+						<div class="row icons">
+							<a href="http://stackoverflow.com/users/4913404/drew-holcomb" target="_blank"><i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i></a>
+							<a href="https://angel.co/drew-holcomb" target="_blank"<i class="fa fa-angellist" aria-hidden="true"></i></a>
+							<a href="https://github.com/drewholc" target="_blank"<i class="fa fa-github" aria-hidden="true"></i></a>
+							<a href="http://codepen.io/drewholc/" target="_blank"<i class="fa fa-codepen" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/drew-holcomb-96a0862b" target="_blank"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						</div>
+						<div class="row">
+							<p style="margin-left:90px;">Email: <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">drew.a.holcomb@gmail.com</a></p>
+						</div>
+
+						<form action="php/sendemail.php" method="post">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="name" class="form-control" name="name" id="name" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label for="Email">Email</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<label for="Subject">Subject</label>
+								<input type="subject" class="form-control" name="subject "id="subject" placeholder="Subject">
+							</div>
+							<div class="form-group">
+						    <label for="Message">Message</label>
+						    <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message"></textarea>
+						  </div>
+							<button input type="submit" class="btn btn-default" value="Send"><span>Send</span></button>
+							<button input type="reset" class="btn btn-default" value="Reset"><span>Reset</span></button>
+						</form>
+
+					</div><!--============END OF SOCIAL MEDIA LINKS================-->
+				</div>
+			</div><!--=====================END OF FOOTER CONTAINER INNER===========================-->
+		</div><!--==============================END OF FOOTER ROW====================================-->
+	</div><!--=====================END OF FOOTER CONTAINER FLUID===========================-->
+
+<!--==========================MODAL===================================-->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalLabel">School</h1>
+      </div>
+      <div class="modal-body">
+				<div id="education">
+					<div id="webDev">
+			      <h4>Web Development</h4>
+			      <p><strong>Geekwise Academy</strong> <span style="float:right;">July 2016 - Present</span> <br /> Bootcamp 2</p>
+						<p><strong>Free Code Camp</strong> <span style="float:right;">July 2016 - Present</span> <br /> Full Stack Developer </p>
+						<p><strong>MOOC's</strong> <span style="float:right;">Nov 2014 - Present</span> <br /> Code Academy, Udemy, Harvard Free Courses, etc. </p>
+					</div>
+					<div id="college">
+			      <h4>College</h4>
+			      <p>University of California Santa Barbara <span style="float:right;">August 2007 - July 2011</span> <br />
+			Bachelor of Arts in Sociology </p>
+					</div>
+	      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title" id="myModalLabel">Work</h1>
+      </div>
+      <div class="modal-body">
+				<div id = "work">
+
+					<div id ="fiore">
+						<h4>Fiore Di Pasta, Fresno, CA</h4>
+						<p>Accounts Payable Specialist <span style="float:right;">May 2016 - Present</span></p>
+							<ul>
+								<li type="square">On site IT, fixing BlackBerrys, PC/Phone setup and upkeep, setting up VPN and remote desktop</li>
+								<li type="square">Control on stock/supplies and standardizing ordering procedures</li>
+								<li type="square">Function as primary liaison to vendors and employees to ensure a positive experience</li>
+								<li type="square">Help accounting with accounts payable and receivable </li>
+							</ul>
+					</div>
+
+					<div id ="42west">
+						<h4>42West, New York, NY</h4>
+						<p>Office Manager <span style="float:right;">January 2014 - May 2016</span></p>
+							<ul>
+								<li type="square">On site IT, fixing BlackBerrys, PC/Phone setup and upkeep, setting up VPN and remote desktop</li>
+								<li type="square">Control on stock/supplies and standardizing ordering procedures</li>
+								<li type="square">Function as primary liaison to vendors and employees to ensure a positive experience</li>
+								<li type="square">Help accounting with accounts payable and receivable </li>
+							</ul>
+					</div>
+
+					<div id="aamcar">
+						<h4>Aamcar, New York, NY</h4>
+						<h4>Assistant Manager <span style="float:right;">August 2013 - January 2014</span></h4>
+							<ul>
+								<li type="square">Met and greeted clients and staff; answer and route busy phones</li>
+								<li type="square">Responded to emails and voicemail inquiries and complaints in an efficient and timely manner</li>
+								<li type="square">Provided exemplary customer service; follow through to client satisfaction</li>
+							</ul>
+					</div>
+
+				</div>
+			</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=================================END OF MODALS===============================-->
+
+
+
+
+
 </body>
 </html>
