@@ -34,7 +34,7 @@ body {
 /*===========================JUMBOTRON=========================*/
 .jumbotron {
   height: 45em;
-  background-image: url('../img/blur-background.jpg');
+  background-image: url('../img/background-logo2.jpg');
   background-attachment: fixed;
   background-size: cover;
   border-radius: 0px !important;
@@ -147,6 +147,10 @@ hr {
   margin: 18px 0;
 }
 
+.buts {
+  margin-top: 1.5em;
+}
+
 .btn-default, {
   background-color: white;
   border-color: black;
@@ -185,6 +189,19 @@ hr {
 .btn-default:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+      outline: 0px auto -webkit-focus-ring-color;
+}
+
+.btn-default:focus, .btn-default:active, .btn-default:visited {
+  background-color: #fff;
+  outline: 0px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
 }
 
 /*==========================END OF ABOUT==============================*/
@@ -230,7 +247,7 @@ h3 {
 
 /*==========================FOOTER===================================*/
 .footer {
-  height: 45em;
+  height: 46em;
   background-image: url('../img/blur-background.jpg');
   background-attachment: fixed;
   background-size: cover;

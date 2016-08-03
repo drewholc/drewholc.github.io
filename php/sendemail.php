@@ -8,8 +8,7 @@
        // set here
        $to = 'drew.a.holcomb@gmail.com';
 
-       $body = $message
-HTML;
+       $body = $message HTML;
 
        $headers = "From: $email\r\n";
        $headers .= "Content-type: text/html\r\n";
