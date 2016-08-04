@@ -29,14 +29,19 @@ body {
   font-size: 11px;
   padding: 10px;
 }
+
+.logo {
+  height: 40px;
+  width: 180px;
+}
 /*===========================END OF NAVBAR=========================*/
 
 /*===========================JUMBOTRON=========================*/
 .jumbotron {
   height: 45em;
-  background-image: url('../img/background-logo2.jpg');
+  background-image: url('../img/street-blur.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
   border-radius: 0px !important;
   color: #FFFFFF;
 }
@@ -256,7 +261,7 @@ h3 {
 /*==========================FOOTER===================================*/
 .footer {
   height: 46em;
-  background-image: url('../img/blur-background.jpg');
+  background-image: url('../img/street-blur.jpg');
   background-attachment: fixed;
   background-size: cover;
   border-radius: 0px !important;
