@@ -21,12 +21,12 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-nav>.active>a:after {
   background-color: rgba(0, 0, 0, .5) !important;
   color: #cfccd1;
-  font-size: 12px;
+  font-size: 13px;
   padding: 10px;
 }
 .navbar-default .navbar-nav>li>a {
   color: #cfccd1;
-  font-size: 10px;
+  font-size: 11px;
   padding: 10px;
 }
 /*===========================END OF NAVBAR=========================*/
@@ -41,18 +41,22 @@ body {
   color: #FFFFFF;
 }
 
+
 h1 {
-  font-family: 'Bungee', cursive;
+  font-family: 'Kreon', cursive;
   margin-top: 1em;
+  font-size: 5em !important;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-family: 'Bungee', cursive;
+  font-family: 'Kreon', cursive;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .jumbotron p {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .animation_typing{
@@ -145,6 +149,10 @@ hr {
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
+}
+
+h4 {
+  margin: 0 !important;
 }
 
 .buts {
