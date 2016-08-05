@@ -24,6 +24,11 @@ body {
   font-size: 13px;
   padding: 10px;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #825F66;
+}
+
 .navbar-default .navbar-nav>li>a {
   color: #cfccd1;
   font-size: 11px;
@@ -38,10 +43,11 @@ body {
 
 /*===========================JUMBOTRON=========================*/
 .jumbotron {
-  height: 45em;
+  height: 100%;
   background-image: url('../img/street-blur.jpg');
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 0px !important;
   color: #FFFFFF;
 }
@@ -133,7 +139,7 @@ h2 {
 
 /*==========================ABOUT=====================================*/
 #about {
-  height:40em;
+  height:40%;
 }
 
 .fa {
@@ -221,7 +227,7 @@ h4 {
 
 /*==========================PROJECTS=================================*/
 #projects {
-  height:60em;
+  height:40%;
 }
 
   .col-centered {
@@ -260,10 +266,11 @@ h3 {
 
 /*==========================FOOTER===================================*/
 .footer {
-  height: 46em;
+  height: 100%;
   background-image: url('../img/street-blur.jpg');
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 0px !important;
   color: #FFFFFF;
 }
@@ -278,6 +285,14 @@ a, a:hover, a:active, a:visited {
   text-decoration: none;
 }
 
+a.fa:hover {
+  color: #825F66;
+}
+
+i.fa.fa-stack-overflow:hover {
+  color: #825F66;
+}
+
 
 .icons {
   margin-top: 30px;
@@ -286,7 +301,8 @@ a, a:hover, a:active, a:visited {
 }
 
 #contact {
-  margin-top: 5em;
+  margin-top: 1em;
+  margin-bottom: 4em;
 }
 
 /*========================END OF FOOTER=============================*/
