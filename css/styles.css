@@ -24,11 +24,6 @@ body {
   font-size: 13px;
   padding: 10px;
 }
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #825F66;
-}
-
 .navbar-default .navbar-nav>li>a {
   color: #cfccd1;
   font-size: 11px;
@@ -43,11 +38,10 @@ body {
 
 /*===========================JUMBOTRON=========================*/
 .jumbotron {
-  height: 100%;
+  height: 45em;
   background-image: url('../img/street-blur.jpg');
   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100%;
   border-radius: 0px !important;
   color: #FFFFFF;
 }
@@ -139,7 +133,7 @@ h2 {
 
 /*==========================ABOUT=====================================*/
 #about {
-  height:40%;
+  height:40em;
 }
 
 .fa {
@@ -227,7 +221,7 @@ h4 {
 
 /*==========================PROJECTS=================================*/
 #projects {
-  height:40%;
+  height:60em;
 }
 
   .col-centered {
@@ -266,11 +260,10 @@ h3 {
 
 /*==========================FOOTER===================================*/
 .footer {
-  height: 100%;
+  height: 46em;
   background-image: url('../img/street-blur.jpg');
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 0px !important;
   color: #FFFFFF;
 }
@@ -285,12 +278,24 @@ a, a:hover, a:active, a:visited {
   text-decoration: none;
 }
 
-a.fa:hover {
-  color: #825F66;
+i.fa.fa-stack-overflow:hover {
+    color: #825F66;
 }
 
-i.fa.fa-stack-overflow:hover {
-  color: #825F66;
+i.fa.fa-angellist:hover {
+    color: #825F66;
+}
+
+i.fa.fa-github:hover {
+    color: #825F66;
+}
+
+i.fa.fa-codepen:hover {
+    color: #825F66;
+}
+
+i.fa.fa-linkedin-square:hover {
+    color: #825F66;
 }
 
 
@@ -301,8 +306,7 @@ i.fa.fa-stack-overflow:hover {
 }
 
 #contact {
-  margin-top: 1em;
-  margin-bottom: 4em;
+  margin-top: 5em;
 }
 
 /*========================END OF FOOTER=============================*/
